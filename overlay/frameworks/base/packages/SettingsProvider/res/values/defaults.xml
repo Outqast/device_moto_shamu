@@ -25,4 +25,7 @@
 
     <!-- 30 seconds for default screen timeout -->
     <integer name="def_screen_off_timeout">30000</integer>
+    <!-- Set the backup transport provider so PlayStore restore will work -->
+    <bool name="def_backup_enabled">true</bool>
+    <string name="def_backup_transport">com.google.android.backup/.BackupTransportService</string>
 </resources>
