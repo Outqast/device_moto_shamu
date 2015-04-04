@@ -23,7 +23,7 @@ TARGET_CPU_VARIANT := krait
 BROKEIT := true
 TARGET_NO_BOOTLOADER := true
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
-
+TARGET_GCC_VERSION_ARM := 5.0
 
 # Define kernel config for inline building
 TARGET_KERNEL_CONFIG := despair_defconfig
